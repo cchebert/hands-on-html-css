@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- This is INTERNAL css
+    <style>
+      body {
+        background-color: blue;
+      }
+    </style>
+    -->
+
+    <!-- This is EXTERNAL css-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!--This is INLINE css-->
+  <!--<body style="background-color: green"> -->
+  <body>
+    <h1>Hello Élections Québec</h1>
+
+    <hr />
+
+    <!-- Taille fixe -->
+    <img src="img/electionsQc_noir.png" width="300px" />
+
+    <!-- Taille variable
+    <div style="width: 50%">
+      <img src="img/electionsQc_noir.png" width="50%" />
+    </div>
+    -->
+
+    <hr />
+
+    <p>Ceci est un asf lahs kjhaskfjh k</p>
+    <p>as akshfd khajsfdk <b>haskfd</b> <i>hkjasdf</i></p>
+
+    <hr />
+
+    <table id="fruits">
+      <tr>
+        <td>
+          <Pomme class="fruit-rond">P</Pomme>
+          <Pomme class="fruit-rond" id="pomme-2">O</Pomme>
+          <Pomme class="fruit-rond" id="pomme-3">M</Pomme>
+          <Pomme class="fruit-rond">M</Pomme>
+          <Pomme class="fruit-rond">E</Pomme>
+        </td>
+        <td>
+          <orange class="fruit-rond">o</orange>
+          <orange class="fruit-rond">r</orange>
+          <orange class="fruit-rond">a</orange>
+          <orange class="fruit-rond">n</orange>
+          <orange class="fruit-rond">g</orange>
+          <orange class="fruit-rond">e</orange>
+        </td>
+
+        <td>
+          <banane class="fruit-long">Banane</banane><br />
+          &nbsp;&nbsp;<banane class="fruit-long">Banane</banane><br />
+          <banane class="fruit-long">Banane</banane><br />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" style="background-color: brown; color: white">
+          Bol de fruits
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h3>Langages favoris</h3>
+    <input type="radio" id="html" name="fav_language" value="HTML" />
+    <label for="html">HTML</label><br />
+    <input type="radio" id="css" name="fav_language" value="CSS" />
+    <label for="css">CSS</label><br />
+    <input
+      type="radio"
+      id="javascript"
+      name="fav_language"
+      value="JavaScript"
+    />
+    <label for="javascript">JavaScript</label>
+
+    <hr />
+
+    <form>
+      <label for="utilisateur" class="required">Utilisateur</label>
+      <input type="text" id="utilisateur" required /> <br />
+      <label for="password" class="required">Mot de passe</label>
+      <input type="password" id="password" required /> <br />
+
+      <div class="toolbar">
+        <button type="reset">Réinitialiser</button>
+        <button type="submit">Soumettre</button>
+      </div>
+    </form>
+
+    <hr />
+
+    <div class="outside">
+      <div class="inside">Content</div>
+    </div>
+
+    <hr />
+
+    <figure class="rainbow smooth"></figure>
+  </body>
+</html>

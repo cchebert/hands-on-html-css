@@ -1,0 +1,115 @@
+body {
+  background-color: #ede6e0;
+}
+
+table {
+  border: 3px solid black;
+  border-top: none;
+  border-radius: 4%;
+}
+
+td {
+  font-size: x-large;
+  text-align: center;
+}
+
+#fruits {
+  width: 50vw;
+}
+
+.fruit-rond {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  text-align: center;
+  border: solid 1px;
+}
+
+pomme {
+  background: linear-gradient(135deg, red, rgb(110, 187, 110));
+}
+
+#pomme-2 {
+  background: linear-gradient(45deg, red, rgb(110, 187, 110));
+}
+
+#pomme-3 {
+  background: linear-gradient(225deg, red, rgb(110, 187, 110));
+}
+
+orange {
+  background-color: orange;
+}
+
+banane {
+  background-color: yellow;
+}
+
+.fruit-long {
+  border-radius: 30%;
+  text-align: center;
+  border: solid 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+/* plus : immediatly afer */
+input[type="radio"] + label {
+  color: red;
+  font-style: italic;
+}
+
+label {
+  width: 100px;
+  display: inline-block;
+}
+
+/* > input inside form */
+form > input {
+  width: 180px;
+  margin-bottom: 6px;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+}
+
+label + input[required] {
+  background-color: yellow;
+}
+
+.toolbar {
+  width: 292px;
+  text-align: end;
+}
+
+.outside {
+  background-color: red;
+  padding: 5px;
+  width: 200px;
+}
+
+.inside {
+  margin: 20px;
+  padding: 25px;
+  background-color: blue;
+  border: solid 3px green;
+  color: white;
+}
+
+.rainbow {
+  width: 300px;
+  height: 50px;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+}

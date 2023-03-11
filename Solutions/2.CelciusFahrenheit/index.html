@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Convertisseur de température</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Convertisseur de degrés<br /><span>celcius</span> &lt; --- &gt;
+        <span>fahrenheit</span>
+      </h1>
+      <form name="formulaire" onsubmit="return false">
+        <div class="inputs-container">
+          <div class="input-group">
+            <label for="celcius">Degrés Celcius</label>
+            <input
+              type="number"
+              placeholder="Celcius"
+              id="celcius"
+              name="celcius"
+            />
+          </div>
+          <div class="input-group">
+            <button>
+              <img
+                src="img/Arrows-Right-icon.png"
+                onclick="celcius2fahrenheit()"
+              />
+            </button>
+            <button>
+              <img
+                src="img/Arrows-Left-icon.png"
+                onclick="fahrenheit2celcius()"
+              />
+            </button>
+          </div>
+          <div class="input-group">
+            <label for="fahrenheit">Degrés Fahrenheit</label>
+            <input
+              type="number"
+              placeholder="Fahrenheit"
+              id="fahrenheit"
+              name="fahrenheit"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
