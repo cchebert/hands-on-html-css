@@ -26,7 +26,7 @@ td {
   border: solid 1px;
 }
 
-pomme {
+une-pomme {
   background: linear-gradient(135deg, red, rgb(110, 187, 110));
 }
 
@@ -38,11 +38,11 @@ pomme {
   background: linear-gradient(225deg, red, rgb(110, 187, 110));
 }
 
-orange {
+une-orange {
   background-color: orange;
 }
 
-banane {
+une-banane {
   background-color: yellow;
 }
 

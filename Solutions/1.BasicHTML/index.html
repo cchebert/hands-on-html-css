@@ -20,6 +20,7 @@
     <hr />
 
     <!-- Taille fixe -->
+    <!-- http://www.intranet.dgeq.qc.ca/dgeq/wp-content/uploads/2018/02/electionsQc_noir-900x312.png -->
     <img src="img/electionsQc_noir.png" width="300px" />
 
     <!-- Taille variable
@@ -36,27 +37,30 @@
     <hr />
 
     <table id="fruits">
+      <caption>
+        Bienvenue au Végétarien
+      </caption>
       <tr>
         <td>
-          <Pomme class="fruit-rond">P</Pomme>
-          <Pomme class="fruit-rond" id="pomme-2">O</Pomme>
-          <Pomme class="fruit-rond" id="pomme-3">M</Pomme>
-          <Pomme class="fruit-rond">M</Pomme>
-          <Pomme class="fruit-rond">E</Pomme>
+          <une-pomme class="fruit-rond">P</une-pomme>
+          <une-pomme class="fruit-rond" id="pomme-2">O</une-pomme>
+          <une-pomme class="fruit-rond" id="pomme-3">M</une-pomme>
+          <une-pomme class="fruit-rond">M</une-pomme>
+          <une-pomme class="fruit-rond">E</une-pomme>
         </td>
         <td>
-          <orange class="fruit-rond">o</orange>
-          <orange class="fruit-rond">r</orange>
-          <orange class="fruit-rond">a</orange>
-          <orange class="fruit-rond">n</orange>
-          <orange class="fruit-rond">g</orange>
-          <orange class="fruit-rond">e</orange>
+          <une-orange class="fruit-rond">o</une-orange>
+          <une-orange class="fruit-rond">r</une-orange>
+          <une-orange class="fruit-rond">a</une-orange>
+          <une-orange class="fruit-rond">n</une-orange>
+          <une-orange class="fruit-rond">g</une-orange>
+          <une-orange class="fruit-rond">e</une-orange>
         </td>
 
         <td>
-          <banane class="fruit-long">Banane</banane><br />
-          &nbsp;&nbsp;<banane class="fruit-long">Banane</banane><br />
-          <banane class="fruit-long">Banane</banane><br />
+          <une-banane class="fruit-long">Banane</une-banane><br />
+          &nbsp;&nbsp;<une-banane class="fruit-long">Banane</une-banane><br />
+          <une-banane class="fruit-long">Banane</une-banane><br />
         </td>
       </tr>
       <tr>
@@ -104,5 +108,10 @@
     <hr />
 
     <figure class="rainbow smooth"></figure>
+
+    <hr />
+
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="32" max="100">32%</progress>
   </body>
 </html>
